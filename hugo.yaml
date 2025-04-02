@@ -1,6 +1,6 @@
 ---
-title: "Zen demo site"
-baseURL: "https://zen-demo.xdeb.org/"
+title: "Cheattheweb"
+baseURL: "https://cheattheweb.com"
 theme: "github.com/frjo/hugo-theme-zen/v5"
 languageCode: "en-GB"
 defaultContentLanguage: "en"
@@ -32,9 +32,9 @@ outputs:
 
 params:
   author:
-    name: "Fredrik Jonsson"
+    name: "cheattheweb"
     url: "https://xdeb.org"
-  contact: "frjo@xdeb.org"
+  contact: "cheattheweb@gmail.com"
   copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> licence.<!--/Creative Commons License-->'
   description: "The zen theme for Hugo demo site."
   dateformat: "2 January, 2006"
@@ -50,7 +50,7 @@ params:
   mobileMenu: true
   poweredby: true
   realfavicongenerator: true
-  sidebar: false
+  sidebar: false 
   submitted: true
 
 languages:
@@ -58,39 +58,22 @@ languages:
     weight: 1
     languageName: "English"
     languageCode: "en-GB"
-    contentDir: content/en
+    contentDir: content/bn
     menu:
       main:
         - Name: "Home"
-          weight: -10
-          pageRef: "/"
-        - Name: "Blog"
-          weight: 2
-          pageRef: "/blog/"
-        - Name: "Podcast"
+          weight: 1
+          pageRef: "/Blog/"
+        - Name: "Anime"
+          weight: 3
+          pageRef: "/Anime/"
+        - Name: "Mind"
           weight: 4
-          pageRef: "/podcast/"
-        - Name: "Products"
-          weight: 6
-          pageRef: "/products/"
-        - Name: "Misc"
-          weight: 8
-          pageRef: "/misc/"
+          pageRef: "/Mind/"
+        - Name: "ScreenPlay"
+          weight: 5
+          pageRef: "/ScreenPlay/"
         - Name: "Search"
-          weight: 10
+          weight: 6 
           pageRef: "/search/"
-        - Name: "Contact"
-          weight: 12
-          pageRef: "/contact/"
-
-  sv:
-    weight: 2
-    languageName: "Svenska"
-    languageCode: "sv-SE"
-    contentDir: content/sv
-    menu:
-      main:
-        - Name: "Hem"
-          weight: -10
-          pageRef: "/"
 
