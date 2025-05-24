@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 279.5
   },
   "right": {
     "id": "fbf67b12a06839a8",
@@ -170,9 +170,12 @@
   },
   "active": "fe4aa9da23472a90",
   "lastOpenFiles": [
-    "bn/Blog/demo.md",
-    "bn/Anime/domestic_gf.md",
     "bn/Mind/hate_fb.md",
-    "bn/Mind/dream_jp.md"
+    "bn/Mind/Untitled.md",
+    "bn/Mind/dream_jp.md",
+    "bn/search.md",
+    "bn/Untitled.md",
+    "bn/Anime/domestic_gf.md",
+    "bn/Blog/demo.md"
   ]
 }

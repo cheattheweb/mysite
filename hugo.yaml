@@ -33,11 +33,11 @@ outputs:
 params:
   author:
     name: "cheattheweb"
-    url: "https://xdeb.org"
+    url: "cheattheweb.com"
   contact: "cheattheweb@gmail.com"
   copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> licence.<!--/Creative Commons License-->'
-  description: "The zen theme for Hugo demo site."
-  dateformat: "2 January, 2006"
+  description: "Cheats Own Personal Site"
+  dateformat: "19 January, 2005"
   favicon: "apple-touch-icon.png"
   feedlinks: true
   icon: "apple-touch-icon.png"
@@ -70,10 +70,7 @@ languages:
         - Name: "Mind"
           weight: 4
           pageRef: "/Mind/"
-        - Name: "ScreenPlay"
-          weight: 5
-          pageRef: "/ScreenPlay/"
         - Name: "Search"
-          weight: 6 
+          weight: 5 
           pageRef: "/search/"
 
